@@ -1,0 +1,13 @@
+name: TestPlugin
+main: com.peteydog7.bukkit.TestPlugin
+version: 0.0.1
+author: PeteyDog7
+website: github.com/peteydog7/ExplosivePickaxe
+softdepend: [BarAPI]
+
+
+commands:
+  TestPlugin:
+   description: Test Plugin commands
+   aliases: tp
+   usage: /testplugin <args>
